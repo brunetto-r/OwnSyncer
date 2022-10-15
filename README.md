@@ -1,0 +1,2 @@
+# OwnSyncer
+Owncloud synchronizer
