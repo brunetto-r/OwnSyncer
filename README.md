@@ -36,3 +36,13 @@ Edit exclude.lst:
 Run one time with exclusions:
 
     owncloudcmd --user "$OC_USER" --password "$OC_PASS" --exclude exclude.lst /mnt "https://$OC_SERVER/owncloud/remote.php/webdav/"
+
+# Sync directions
+
+Tested:
+    - Downloads files from remote
+    - Uploads file to remote
+    
+Under test:
+    - Deletes local file after deleted in remote
+    - Deletes remote file after deleted locally
