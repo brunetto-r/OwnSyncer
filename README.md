@@ -46,3 +46,13 @@ Tested:
 Under test:
     - Deletes local file after deleted in remote
     - Deletes remote file after deleted locally
+
+# Trableshooting
+
+When the owncloud host is on the same machine then add the network to it:
+
+    --network=host
+
+When owncloud is part of domaint it is not in the path. It might be neccecarry to edit it to:
+
+    https://$OC_SERVER/remote.php
